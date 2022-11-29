@@ -15,7 +15,7 @@ export class CaracteristicasEmpleadoCComponent {
 
   agregaCaracteristicas(value: string) {
   //  this.miServicio.muestraMensaje(value);
-  //  this.CaracteristicasEmpleados.emit(value);
+    this.CaracteristicasEmpleados.emit(value);
   }
 
 }
